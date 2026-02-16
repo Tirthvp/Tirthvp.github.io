@@ -235,7 +235,6 @@ section { padding: 110px 48px; }
   width:var(--w);
   animation: fillBar 1.4s cubic-bezier(.25,.46,.45,.94) .3s both;
 }
-.skill-pct { font-size:0.68rem; color:var(--muted); font-weight:500; flex-shrink:0; }
 
 .tag-cloud { display:flex; flex-wrap:wrap; gap:10px; padding-top:10px; }
 .tag {
@@ -314,7 +313,7 @@ section { padding: 110px 48px; }
 /* ═══════════════════════════════════════════
    ACTIVITIES
    ═══════════════════════════════════════════ */
-.activities-grid { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+.activities-grid { display:grid; grid-template-columns:repeat(3, 1fr); gap:20px; }
 .activity-card {
   background:var(--surface); border:1px solid rgba(255,255,255,0.06);
   border-radius:var(--radius); padding:28px;
